@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NestedScroll</string>
+    <id name="viewBinding"/>
+</resources>

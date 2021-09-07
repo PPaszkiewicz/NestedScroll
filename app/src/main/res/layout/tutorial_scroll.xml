@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ppaszkiewicz.nestedscroll.views.HorizontalNestedScrollTutorial
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nestedScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    android:paddingBottom="30dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/bigText1"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/black_transp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="- 1 -"
+        android:layout_margin="1dp"
+        android:textSize="82sp" />
+
+    <TextView
+        android:id="@+id/bigText2"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/black_transp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="- 2 -"
+        android:layout_margin="1dp"
+        android:textSize="82sp" />
+
+</com.github.ppaszkiewicz.nestedscroll.views.HorizontalNestedScrollTutorial>

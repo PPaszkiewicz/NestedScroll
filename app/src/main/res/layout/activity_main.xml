@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black_transp">
+
+    <TextView
+        android:id="@+id/txtDebug"
+        android:text="Test nested scrolling behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:lines="2"
+        android:padding="8dp"/>
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/recRecycler"-->
+    <!--        android:layout_margin="64dp"-->
+    <!--        android:background="@color/black_transp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <com.github.ppaszkiewicz.nestedscroll.views.NestedScrollViewPager2Host
+        android:id="@+id/layPagerHost"
+        android:layout_margin="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_transp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/layPager2"
+            android:layout_margin="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_transp" />
+
+
+    </com.github.ppaszkiewicz.nestedscroll.views.NestedScrollViewPager2Host>
+
+
+</LinearLayout>

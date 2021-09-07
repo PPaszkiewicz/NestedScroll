@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bigTextRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/bigText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black_transp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintHeight_percent="0.8"
+        android:text="1 - 2"
+        android:layout_margin="1dp"
+        android:textSize="82sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

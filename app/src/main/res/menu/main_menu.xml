@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/textFragment" android:title="TextFragment"/>
+    <item android:id="@+id/recyclerFragment" android:title="RecyclerFragment"/>
+    <item android:id="@+id/tutorialFragment" android:title="TutorialFragment"/>
+    <item android:id="@+id/viewPagerTextFragment" android:title="ViewPagerTextFragment"/>
+    <item android:id="@+id/viewPagerRecyclerFragment" android:title="ViewPagerRecyclerFragment"/>
+</menu>
